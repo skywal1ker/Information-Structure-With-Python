@@ -7,7 +7,7 @@ What values can you input and print without errors being generated?"""
 
 a = input("Enter an integer value: ")
 b = input("Enter a float value: ")
-c = input("Enetr a string value: ")
+c = input("Enter a string value: ")
 
 print(a)
 print(b)

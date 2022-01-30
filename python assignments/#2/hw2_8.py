@@ -1,9 +1,4 @@
-
 #8 TASK
-
-
-
-
 
 """40. Body Mass Index (BMI) is a number calculated from a person’s weight and height. According
 to the Centers for Disease Control, the BMI is a fairly reliable indicator of
@@ -21,9 +16,7 @@ height = float(input("Enter your height in cm: "))
 weight = float(input("Enter your weight in kg: "))
 
 BMI = weight / (height/100)**2
-
 BMI = weight / (height/100)**2
 
 print(f"You BMI in meters is {BMI}")
-
 print(f"You BMI in inches is {BMI / 0.0254}")
