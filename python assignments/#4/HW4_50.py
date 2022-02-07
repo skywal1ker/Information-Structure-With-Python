@@ -9,6 +9,7 @@ str_txt = input("Type the sentence please: ")
 zero_vowels = []
 vowel = []
 count = 0
+
 for operation in str_txt:
    if operation == "A" or "a" or operation == "E" or "e" or operation == "I" or "i" or operation == "O" or "o" or operation == "U" or "u":
          if(operation not in vowel):
