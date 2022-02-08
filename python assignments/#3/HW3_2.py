@@ -20,7 +20,6 @@ ass2=[]
 ass3=[]
 ass4=[]
 def var(my_var):
-    
     if my_var % 2:
         if my_var**3 != 27:
             print('Assignment 1: ', my_var)
