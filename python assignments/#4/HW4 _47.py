@@ -11,6 +11,7 @@ def correct_password(password):
     if len(password) < 6 or len(password) > 20:
         return False
     has_lowercase = has_uppercase = has_number = False
+
     for character in password:
         if character.islower():
             has_lowercase = True
