@@ -11,6 +11,8 @@ turns nothing. Note that the sentence could have special characters such as dots
 and so on.
 """
 
+
+
 def stringAnalyse(string):
 	cons_count = 0
 	vowel_count = 0
@@ -19,8 +21,7 @@ def stringAnalyse(string):
 			char = char.lower()
 			if char=='a' or char=='e' or char=='i' or char=='o' or char=='u':
 				vowel_count = vowel_count + 1
-			else:
-				cons_count = cons_count + 1
+			else: cons_count = cons_count + 1
 				
 	print("Total number of vowels:", vowel_count)
 	print("Total number of consonants:", cons_count)
