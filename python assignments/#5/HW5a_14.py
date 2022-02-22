@@ -12,16 +12,11 @@ not allowed.
 """
 
 def check_ph(rech):
-    if rech == 5 or rech == 10:
-        return 0
-    elif rech == 25:
-        return 3
-    elif rech == 50:
-        return 8
-    elif rech == 100:
-        return 20
-    else:
-        return -1
+    if rech == 5 or rech == 10: return 0
+    elif rech == 25: return 3
+    elif rech == 50: return 8
+    elif rech == 100: return 20
+    else: return -1
         
 def pay():
     rech = int(input("Enter recharge amount in the denomination of $5, $10, $25, $50, $100: "))
