@@ -7,8 +7,7 @@ returns.
 
 
 def prompt_open():
-    while True:
-        file_name = input("Enter a file name: ")
+    while True: file_name = input("Enter a file name: ")
         try:
             x_file = open(file_name,'r')
             return x_file
