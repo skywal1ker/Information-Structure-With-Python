@@ -14,6 +14,8 @@ def prompt_open():
         except FileNotFoundError:
             print("File not found")
             pass
+
 open_file = prompt_open()
+
 print(open_file)
 
