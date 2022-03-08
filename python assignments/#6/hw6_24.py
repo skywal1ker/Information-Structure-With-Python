@@ -5,6 +5,7 @@ in your list, for example, "end." is not a correct word, but "end" is.
 (b) Use a for loop.
 """
 
+
 import string
 
 def create_list_of_words(sentence):
@@ -27,6 +28,4 @@ def create_list_of_words_while(sentence):
         list_of_words.append(word.strip(string.punctuation))
 
     print("(a) While loop: ", list_of_words)
-
-
 create_list_of_words_while("let me down easy")

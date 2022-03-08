@@ -23,4 +23,5 @@ for i in range(len(listA)):
     elif i == len(listA) - 1: listB.append(listA[i] + listA[i-1])
     else: listB.append(listA[i] + listA[i-1] + listA[i+1])
 
+
 print(listB)
