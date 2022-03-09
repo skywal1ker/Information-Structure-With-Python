@@ -6,6 +6,7 @@
 (d) to print all the keys and values pairs in order of key.
 (e) to print all the keys and values pairs in order of value.
 """
+
 dct = {'a': 15, 'c': 35, 'b': 20}
 keys_dict = dct.keys()
 val_dict = dct.values()

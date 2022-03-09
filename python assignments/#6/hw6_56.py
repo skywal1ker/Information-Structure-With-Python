@@ -16,6 +16,7 @@ def rotate(lists, k, direction):
         for item in range(0, k - 1):
             output_list.append(lists[item])
         return output_list
+
     else:
         direction == "right"
         output_list = []
