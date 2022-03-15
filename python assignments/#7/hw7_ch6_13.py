@@ -4,15 +4,16 @@ through this text file to find compound words. Your program should return these 
 is a compound word so your program should return raincoat = rain + coat.
 """
 
-
 from collections import deque
 
 temp=open("C:/users/skywalker/desktop/sai.dic","r")
 tup1 = []
 d = deque()
+
 for str in temp:
     tup1.append(str)
     d.append(str)
+
 for word in tup1:
     for i in range(len(word)):
         word.strip()

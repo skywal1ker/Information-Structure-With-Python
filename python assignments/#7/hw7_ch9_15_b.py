@@ -8,13 +8,12 @@ names.
 
 """
 
-
 def func_b(fname,lname):
     fname_set = set(fname)
     lname_set = set(lname)
     common_char_inter = fname_set.intersection(lname_set)
     return common_char_inter
 
-func_b('alan','Salline')
+func_b('alan','Saline')
 
 
