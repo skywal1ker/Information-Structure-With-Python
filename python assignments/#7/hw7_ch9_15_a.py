@@ -5,7 +5,6 @@
 names.
 (c) uses sets to return the set that is the symmetric difference between the first and last
 names.
-
 """
 
 def func_a(fname,lname):

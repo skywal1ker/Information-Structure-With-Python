@@ -3,9 +3,7 @@
 earlier exercises you saw how to read a word list. Also, in earlier examples we saw how
 the sorted characters of a word are a useful canonical representation of an anagram
 (Hint: Therefore, useful as a key).
-
 """
-
 
 def anagrams(el):
     if len(el) <=1:

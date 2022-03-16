@@ -4,9 +4,7 @@
 (b) uses sets to return a set that is the intersection of the characters in the first and last
 names.
 (c) uses sets to return the set that is the symmetric difference between the first and last
-names.
-
-"""
+names."""
 
 def func_b(fname,lname):
     fname_set = set(fname)

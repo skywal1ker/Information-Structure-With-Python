@@ -5,7 +5,6 @@ to the dictionary.
 For example, Capitals = { ‘Argentina’:‘Buenos Aires’, ‘France’:‘Paris’, ‘US’:‘Washington
 D.C.’}
 Once the dictionary is created, print the capitals in alphabetical order.
-
 """
 
 import collections

@@ -7,7 +7,6 @@ shift (such as 4 mentioned earlier), and prints the encrypted string. [Hint: zip
 is helpful in building a dictionary. Also, remember to handle space–it doesn’t shift].
 (b) Extend your program to take an additional input that indicates if your program is
 to encrypt or decrypt the string.
-
 """
 
 def encrypt(string, shift, dic):

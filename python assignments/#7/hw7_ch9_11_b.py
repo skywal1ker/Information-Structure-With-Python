@@ -22,7 +22,6 @@ def decrypt(string, shift, dic):
     return decrypted
     
 
-
 print("2. Decryption")
 string = input("Enter the string to decrypt: ")
 shift = int(input("Enter the integer shift for decryption: "))
