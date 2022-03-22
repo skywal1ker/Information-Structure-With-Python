@@ -15,10 +15,14 @@ Think of and implement any other 10 (interesting!!!) editor commands (your choic
 You can look at some of vi ditor commands for suggestions
 """
 
+
+
 txt_str = """Beautiful is better than ugly.
 Explicit is better than implicit.
 Simple is better than complex.
 Complex is better than complicated."""
+
+
 
 
 
@@ -103,7 +107,6 @@ def cmd_dd(txt_str, cur_line):
 
 #(8) cmd_ddp: transpose two adjacent lines
 def cmd_ddp()
-
 
 #(9) cmd_n: search for next occurrence of a string (assume that string to be searched is fully in one line.
 def cmd_n(txt_str, cur_line, target):              
@@ -207,7 +210,6 @@ x_nxt, cur_line = cmd_n(txt_str, cur_line, "scar")
 
 #(10) cmd_wq: write your representation as text file and save it
 x_sav, cur_line = cmd_wq(txt_str) 
-
 
 
 # program choices
