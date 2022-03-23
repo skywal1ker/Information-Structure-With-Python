@@ -18,11 +18,11 @@ x_str = """Today
 is a new
 Wedenesday"""
 
+
 x_list = x_str.split("\n")
 
 line = 1
 cur = 3
-
 
 def print_file(x_list, line, cur):
     print("\n".join(x_list[: line]))
