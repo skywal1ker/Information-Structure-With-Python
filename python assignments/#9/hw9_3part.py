@@ -3,8 +3,8 @@ is a new
 Wednesday"""
 
 
-x_list = x_str.split("\n")
 
+x_list = x_str.split("\n")
 line = 1
 cur = 2
 
