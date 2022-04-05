@@ -7,7 +7,6 @@ Design subclasses for car, truck, SUV, and minivan. Think about the specific fie
 and methods required for the subclasses.
 """
 
-
 class Vehicle(object):
     def __init__(self, vin, make, model, year, mileage):
         self.VIN = vin
@@ -33,12 +32,10 @@ class car(Vehicle):
         Vehicle.__init__(self, vin, make, model, year, mileage)
         self.trunk_size = trunkSize
 
-
 class truck(Vehicle):
     def __init__(self, vin, make, model, year, mileage, capacity):
         Vehicle.__init__(self, vin, make, model, year, mileage)
         self.capacity = capacity
-
 
 v = Vehicle("JH4TB2H26CC000000" , "Toyoto", "Hatch back", 2013, 23)
 c = car("GH4MA2H26CC000000", "Mahindra", "SUV", 2009, 20, 500)

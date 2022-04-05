@@ -23,8 +23,10 @@ class Bill:
         new_quantity = self.quantity + other.quantity
         return Bill(new_list,new_prices,new_quantity) 
 
+
 mcd = Bill(['burgers','strawberry milkshakes'],[4.00,2.50],[2,4]) 
 mcd2 = Bill(['maggi','pizza'],[5.00,12.50],[5,3])
+
 
 print("Grand total: $",mcd.getGrandTotal())
 result = mcd.__add__(mcd2)

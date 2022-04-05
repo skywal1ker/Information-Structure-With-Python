@@ -4,20 +4,16 @@ We could think of the human body as a complex object made up of simpler objects
 (organs).
 """
 
-
 """
 (a) Create classes for heart and brain. Think about what the functions of the heart and
 brain are in our body and map these functions into methods.
 """
 class Organ(object):
-
     def __init_(self, organ_class='', size_float = 0.0):
         self.__organ_class = organ_class
         self.__size = size_float
-
     def get_size(self):
         return self.__size
-
     def __str__(self):
         print("in str")
         return "Organ: {}".format(self.__organ_class)
@@ -26,7 +22,6 @@ class Organ(object):
 class Heart(Organ):
     def _init__(self, size_float=0.0):
         Organ.__init__(self, 'Heart', size_float)
-
 
     def pump(self):
         print("Pump blood through the entire human body.")
