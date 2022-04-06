@@ -22,6 +22,7 @@ class Item:
         return self.amount
 
 
+
 class ShoppingCart:
     def __init__(self):
         self.content = []
@@ -45,13 +46,17 @@ item1 = Item(1, "Music Player", "Apple", "IPod", 200)
 item2 = Item(2, "Camera", "Fujiflim", "Fujiflim instamax", 150)
 item3 = Item(3, "TV", "Sony", "66 inch Smart TV", 1500)
 item4 = Item(4, "Laptop", "ASUS", "ASUS ZenBook", 1100)
+
 userCart = ShoppingCart()
 userCart.addItem(item1)
 print("IPod added to the cart")
+
 userCart.addItem(item2)
 print("Fujiflim instamax added to the cart")
+
 userCart.addItem(item3)
 print("Sony 66 inch Smart TV added to the cart")
+
 userCart.addItem(item4)
 print("ASUS ZenBook added to the cart")
 

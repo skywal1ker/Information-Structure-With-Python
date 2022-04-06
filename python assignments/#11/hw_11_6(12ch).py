@@ -13,6 +13,7 @@ A more advanced version of this class would consider the directions other than
 same or opposite directions.
 """
 
+
 class Velocity(object):
     def __init__(self, d, sec, units = 'meter'):
         self.distance = float(d)
@@ -27,8 +28,10 @@ class Velocity(object):
     def __add__(self, v):
         return self.speed + v.speed
 
+
     def __sub__(self, v):
         return self.speed - v.speed
+
 
 v = Velocity(5, 10, "feet")
 v1 = Velocity(10, 8, "meter")
