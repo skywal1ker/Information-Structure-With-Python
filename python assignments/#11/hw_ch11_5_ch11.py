@@ -8,6 +8,7 @@ class Flight_ticket:
         self.Class = Class
         self.fare = fare
 
+
     def printAirlineTicket(self):
         print("Date of travel: " + str(self.date))
         print("Destination: " + str(self.destination))
@@ -16,6 +17,7 @@ class Flight_ticket:
         print("Ticket number: " + self.ticket_no)
         print("Name of traveller: " + str(self.name))
         print("Travelling from: " + str(self.start))
+
 
 ticket = Flight_ticket("Boston, MA", "Dallas, TX", "08-21-2022", "Business", 450, "Raphael","ABC123")
 ticket.printAirlineTicket()

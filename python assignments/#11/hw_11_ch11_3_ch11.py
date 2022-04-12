@@ -59,6 +59,7 @@ class Table_Fan:
     def decreaseSpeed(self):
         if self.status == False:
             self.status == True
+
         if (self.speed > 0):
             self.speed = self.speed - 1
             print("Speed decreased by one and the current speed is " + str(self.speed))
@@ -69,13 +70,16 @@ class Table_Fan:
 
 
 myfan = Table_Fan("USHA", "Elegence", "$30", "New")
+
 print(myfan.getManufacturer())
 print(myfan.getModel())
 print(myfan.getPrice())
 print(myfan.getCondition())
+
 myfan.switchOn()
 myfan.increaseSpeed()
 myfan.toggleSwing()
 myfan.decreaseSpeed()
+
 myfan.increaseSpeed()
 myfan.switchOff()
