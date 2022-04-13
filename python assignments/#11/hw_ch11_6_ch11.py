@@ -33,7 +33,9 @@ class Book:
 
 howtoSaveYourFourthMarriage = Book("How to Save Your Fourth Marriage: One Person Can Transform a Relationship",
                                    "Balboa Press", "2022", "Paperback", 19.99, "Terri Crosby", "1982278358")
+
 print("Details of your favourite book")
+
 print("Name: " + str(howtoSaveYourFourthMarriage.getName()))
 print("Price: $" + str(howtoSaveYourFourthMarriage.getPrice()))
 print("Type: " + str(howtoSaveYourFourthMarriage.getType()))
