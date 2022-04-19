@@ -59,14 +59,13 @@ class Table_Fan:
     def decreaseSpeed(self):
         if self.status == False:
             self.status == True
-
         if (self.speed > 0):
             self.speed = self.speed - 1
             print("Speed decreased by one and the current speed is " + str(self.speed))
-
         else:
             self.speed = 0
             print("Speed is " + str(self.speed) + " Hence switching off the Fan")
+
 
 
 myfan = Table_Fan("USHA", "Elegence", "$30", "New")

@@ -56,18 +56,13 @@ print("Fujiflim instamax added to the cart")
 
 userCart.addItem(item3)
 print("Sony 66 inch Smart TV added to the cart")
-
 userCart.addItem(item4)
 print("ASUS ZenBook added to the cart")
-
 print("Total no. of items in your cart are " + str(userCart.getItemCount()))
-
 print("The cost for all these items are " + str(userCart.getTotal()))
 
 userCart.removeItem(item3)
 
 print("You removed one item from the cart")
-
 print("Total no. of items in your cart are " + str(userCart.getItemCount()))
-
 print("The cost for all the items in your cart are " + str(userCart.getTotal()))
