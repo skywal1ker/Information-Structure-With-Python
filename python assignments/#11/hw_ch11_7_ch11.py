@@ -12,40 +12,58 @@ class Patient:
 
     def setPatientID(self, id): 
         self.id = id
+
     def getPatientID(self):
         return self.id
+
     def setName(self, name):
         self.name = name
+
     def getName(self):
         return self.name
+
     def setGender(self, gender):
         self.gender = gender
+
     def getGender(self):
         return self.gender
+
     def setAge(self, age):
         self.age = age
+
     def getAge(self):
         return self.age
+
     def setAddress(self, address):
         self.address = address
+
     def getAddress(self):
         return self.address
+
     def setPhoneNumber(self, no):
         self.no = no
+
     def getPhoneNumber(self):
         return self.no
+
     def setDOB(self, dob):
         self.dob = dob
+
     def getDOB(self):
         return self.dob
+
     def setHeight(self, height):
         self.height = height
+
     def getHeight(self):
         return self.height
+
     def setWeight(self, weight):
         self.weight = weight
+
     def getWeight(self):
         return self.weight
+
     def patient_details(self):
         print("Patient ID : ", self.id, "\nPatient Name : ", self.name, "\nGender : ", self.gender, "\nAge : ", self.age,"\nAddress : ", self.address, "\nDate of Birth : ", self.dob, "\nPhone Number : ", self.no,"\nHeight : ", self.height, "\nWeight : ", self.weight)
 
@@ -62,32 +80,46 @@ class Doctor:
 
     def setName(self, name):
         self.name = name
+
     def getName(self):
         return self.name
+
     def setRegNumber(self, regNumber):
         self.RegNumber = regNumber
+
     def getRegNumber(self):
         return self.regNumber
+
     def setQualification(self, qualification):
         self.qualification = qualification
+
     def getQualification(self):
         return self.qualification
+
     def setSpecialization(self, specialization):
         self.specialization = specialization
+
     def getSpecialization(self):
         return self.specialization
+
     def setPhoneNumber(self, no):
         self.no = no
+
     def getPhoneNumber(self):
         return self.no
+
     def setOfficeHours(self, officeHours):
         self.officeHours = officeHours
+
     def getOfficeHours(self):
         return self.officeHours
+
     def setOfficeLocation(self, location):
         self.location = location
+
     def getOfficeLocation(self):
         return self.location
+
     def doctorDetails(self):
         print("Doctor's ID : ", self.regNumber, "\nDoctor's Name : ", self.name, "\nQualification : ", self.qualification,"\nSpecialization : ", self.specialization, "\nPhone Number : ", self.no,"\nOffice Hours : ", self.officeHours, "\nOffice Location : ", self.location)
 
@@ -101,34 +133,49 @@ class PatientMedicalRecord:
         self.medication = medication
         self.charges = charges
         self.report = report
+
     def setprevCheckUpDate(self, prevCheckupDate):
         self.prevCheckupDate = prevCheckupDate
+
     def getprevCheckUpDate(self):
         return self.prevCheckupDate
+
     def setDoctorID(self, doctorID):
         self.doctorID = doctorID
+
     def getDoctorID(self):
         return self.doctorID
+
     def setPatientID(self, id):
         self.id = id
+
     def getPatientID(self):
         return self.id
+
     def setSymptoms(self, heathProblem):
         self.heathProblem = heathProblem
+
     def getSymptoms(self):
         return self.heathProblem
+
     def setMedication(self, medication):
         self.medication = medication
+
     def getMedication(self):
         return self.medication
+
     def setCharges(self, charges):
         self.charges = charges
+
     def getCharges(self):
         return self.charges
+
     def setReport(self, report):
         self.report = report
+
     def getReport(self):
         return self.report
+
     def patientRecord_details(self):
         print("Date of Previous Checkup : ", self.prevCheckupDate, "\nPatient Id : ", self.id, "\nDoctor Id : ", self.doctorID,"\nHealth problems : ", self.heathProblem, "\nMedicines : ", self.medication,"\nCharges : $", self.charges, "\nReport : ", self.report)
 
