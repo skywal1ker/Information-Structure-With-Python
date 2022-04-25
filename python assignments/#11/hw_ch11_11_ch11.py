@@ -11,6 +11,8 @@ class Sentence:
 
 a = Sentence("I am going back")
 print(a.get_first_word())
+
 print(a.get_all_words())
 a.replace(3, "Home")
+
 print(a.get_all_words())
