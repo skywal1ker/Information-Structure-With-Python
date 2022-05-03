@@ -44,6 +44,8 @@ class Brain(Organ):
     def dominant_hemisphere(self):
         return self.hemisphere
 
+
+
     def reasoning(self):
         print("Recording information")
     
