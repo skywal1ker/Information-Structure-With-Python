@@ -36,6 +36,7 @@ howtoSaveYourFourthMarriage = Book("How to Save Your Fourth Marriage: One Person
 
 print("Details of your favourite book")
 
+
 print("Name: " + str(howtoSaveYourFourthMarriage.getName()))
 print("Price: $" + str(howtoSaveYourFourthMarriage.getPrice()))
 print("Type: " + str(howtoSaveYourFourthMarriage.getType()))
