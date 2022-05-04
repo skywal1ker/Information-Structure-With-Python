@@ -33,6 +33,7 @@ class Velocity(object):
         return self.speed - v.speed
 
 
+
 v = Velocity(5, 10, "feet")
 v1 = Velocity(10, 8, "meter")
 print("Addition of velocity:",v + v1)
