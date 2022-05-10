@@ -43,7 +43,9 @@ t = truck("MH4TB2H26CC000019", "Benz", "Ttuck",2010, 5, "15 Ton")
 
 print("\n Vehicle class:")
 print("\n VIN:", v.get_VIN(), "\n Make:", v.get_make(), "\n Model:", v.get_model(), "\n Year:", v.get_year(), "\n Mileage:", v.get_mileage())
+
 print("\n Car class:")
 print("\n VIN:", c.get_VIN(), "\n Make:", c.get_make(), "\n Model:", c.get_model(), "\n Year:", c.get_year(), "\n Mileage:", c.get_mileage())
+
 print("\n Truck class:")
 print("\n VIN:", t.get_VIN(), "\n Make:", t.get_make(),"\n Model:", t.get_model(), "\n Year:", t.get_year(),"\n Mileage:", t.get_mileage())

@@ -4,6 +4,7 @@ We could think of the human body as a complex object made up of simpler objects
 (organs).
 """
 
+
 """
 (a) Create classes for heart and brain. Think about what the functions of the heart and
 brain are in our body and map these functions into methods.
