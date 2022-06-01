@@ -61,6 +61,9 @@ print(phone_d.discharge())
 print("----3333333333333333333----------")
 
 
+print("it is a private method")
+
+
 
 
 
